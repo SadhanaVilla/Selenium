@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CrossBrowserTestingSuite" duration-ms="19189" started-at="2019-12-24T09:24:31 PST" finished-at="2019-12-24T09:24:50 PST">
+    <groups>
+    </groups>
+    <test name="ChromeTestResults" duration-ms="8964" started-at="2019-12-24T09:24:31 PST" finished-at="2019-12-24T09:24:40 PST">
+      <class name="TestNg.NewTest">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:TestNg.NewTest@2b2948e2]" name="beforeClass" is-config="true" duration-ms="2084" started-at="2019-12-24T09:24:31 PST" finished-at="2019-12-24T09:24:33 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f()[pri:0, instance:TestNg.NewTest@2b2948e2]" name="f" duration-ms="6708" started-at="2019-12-24T09:24:33 PST" finished-at="2019-12-24T09:24:40 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNg.NewTest@2b2948e2]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-12-24T09:24:40 PST" finished-at="2019-12-24T09:24:40 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestNg.NewTest@2b2948e2]" name="afterClass" is-config="true" duration-ms="130" started-at="2019-12-24T09:24:40 PST" finished-at="2019-12-24T09:24:40 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestNg.NewTest -->
+    </test> <!-- ChromeTestResults -->
+    <test name="FirefoxTestResults" duration-ms="10178" started-at="2019-12-24T09:24:40 PST" finished-at="2019-12-24T09:24:50 PST">
+      <class name="TestNg.NewTest">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:TestNg.NewTest@6e6c3152]" name="beforeClass" is-config="true" duration-ms="2981" started-at="2019-12-24T09:24:40 PST" finished-at="2019-12-24T09:24:43 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f()[pri:0, instance:TestNg.NewTest@6e6c3152]" name="f" duration-ms="5311" started-at="2019-12-24T09:24:43 PST" finished-at="2019-12-24T09:24:48 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNg.NewTest@6e6c3152]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-12-24T09:24:48 PST" finished-at="2019-12-24T09:24:48 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestNg.NewTest@6e6c3152]" name="afterClass" is-config="true" duration-ms="1881" started-at="2019-12-24T09:24:48 PST" finished-at="2019-12-24T09:24:50 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestNg.NewTest -->
+    </test> <!-- FirefoxTestResults -->
+  </suite> <!-- CrossBrowserTestingSuite -->
+</testng-results>
